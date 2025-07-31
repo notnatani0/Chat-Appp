@@ -1,0 +1,103 @@
+.auth {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.auth .login {
+  flex: 1;
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.auth .login form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.auth .login h2 {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.auth .login input[type="text"],
+.auth .login input[type="email"],
+.auth .login input[type="password"] {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 1rem;
+}
+
+.auth .login input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.auth .login .remember {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: #fff;
+}
+
+.auth .login .forgot {
+  font-size: 0.875rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.auth .login button {
+  width: 100%;
+  padding: 0.75rem;
+  background: #ff7a30;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+
+  &:disabled {
+    cursor: not-allowed;
+    background-color: #ff7830b6;
+  }
+}
+
+.auth .line {
+  width: 2px;
+  height: 80%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.auth .image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.preview-img {
+  width: 40%;
+  height: auto;
+  object-fit: cover;
+}

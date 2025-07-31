@@ -1,0 +1,41 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# .env files (environment variables, API keys, secrets)
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
+
+# Vite environment files
+.vite.env
+.vite.env.local
+
+# Firebase service account keys (if any)
+serviceAccountKey.json
+
+# Mac system files
+.DS_Store

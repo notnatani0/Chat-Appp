@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+body {
+  background-color: #0b0f19;
+  background-image: url("./assets/bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  /* min-height: 100vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #fff;
+}
+
+/* Glass panel container for chat app */
+.container {
+  width: 80vw;
+  height: 90vh;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px) saturate(140%);
+  -webkit-backdrop-filter: blur(10px) saturate(140%);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  overflow: hidden;
+}
+
+/* Optional loader if app is fetching something */
+.loading {
+  padding: 40px;
+  font-size: 24px;
+  border-radius: 10px;
+  background-color: rgba(17, 25, 40, 0.9);
+  text-align: center;
+  color: #fff;
+}
