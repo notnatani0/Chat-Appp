@@ -1,12 +1,60 @@
-# React + Vite
+# 💬 Chat App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a practice project I created to improve my ReactJS and JavaScript skills.
 
-Currently, two official plugins are available:
+A real-time chat application created with React, Firebase, and Vite. This project enables users to authenticate themselves, search for other users, add them to their chat list, and exchange messages in real time. The user interface is sleek and responsive, with capabilities for managing users and receiving notifications.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+✨ **Technologies**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- Firebase (Firestore, Auth)
+- Cloudinary (for image uploads)
+- Zustand (state management)
+- Lucide React (icons)
+- Vanilla CSS
+
+---
+
+🚀 **Features**
+
+- User authentication (Firebase Auth)
+- Real-time chat with Firestore
+- Add/search users to start new chats
+- User profile and avatar support
+- Image upload via Cloudinary
+- Notifications for new messages
+- Responsive design
+
+---
+
+📍 **The Process**
+
+I intended to create a modern chat app with a clear interface and real-time functionalities. The project began with React and Vite to facilitate rapid development. Firebase handles authentication and real-time messaging, whilst Cloudinary is used for picture uploading. Zustand is designed for simple and scalable state management. The user interface is styled with modular CSS to make it easier to maintain. The program is still a work in progress, but the main chat and user functions work!
+
+In future commits, I'll replace the Vanilla CSS with Tailwind CSS and add one or two features (such as AI to summarize informs and respond on your behalf, and lofi music to relax a bit when chatting with a friend), but this is primarily a practice project.
+
+---
+
+🚦 **Running the Project**
+
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Add your Firebase and Cloudinary credentials to a `.env` file (see `.env.example`)
+4. Run the development server: `npm run dev`
+5. Open [http://localhost:5173](http://localhost:5173) in your browser
+
+---
+
+🎞️ **Preview**
+
+_Coming Soon_
+
+---
+
+**Note:**
+
+- Do not commit your `.env` or any secret keys to the repository.
+- This project is under active development and not production-ready yet.
